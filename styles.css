@@ -31,8 +31,8 @@
 }
 
 #navbar__logo {  /* Styling for the "Corey Chen"*/
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-color: #fff;
+    background-image: linear-gradient( #fff 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -89,17 +89,17 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #f77062; /*color for sign up button background*/
+    background: #776c6b; /*color for sign up button background*/
     color: #fff; /*color for signup button text*/
 }
 
 .button:hover { /*changes the color of the signup button when hovered*/
-    background: #4837ff;
+    background: #3d3c51;
     transition:  all 0.3s ease;
 }
 
 .navbar__links:hover {
-    color: #f77062; /*changes the color of the other links' text when hovered*/
+    color: #3d3c51; /*changes the color of the other links' text when hovered*/
     transition: all 0.3s ease;
 }
 
@@ -200,7 +200,7 @@
 
 /* Hero Section CSS */
 .main {   /*Background color of the overall page*/
-    background-color: #a8e6b8;
+    background-color: #28272f;
 }
 
 .main__container {
@@ -210,7 +210,7 @@
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #a8e6b8;
+    background-color: #28272f;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -218,9 +218,9 @@
 }
 
 .main__content h1{
-    font-size: 4rem;
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    font-size: 6rem;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #fff 0%, #141414 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -229,9 +229,9 @@
 }
 
 .main__content h2 {
-    font-size: 4rem;
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    font-size: 8rem;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #fff 0%, #5a5757 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -248,11 +248,11 @@
 
 .main__btn { /*styling for main buttin "get started"*/
     font-size: 1rem;
-    background-image: linear-gradient(to top, #f77062 0%, #fe5156 100%);
+    background-image: linear(#3b2c2c 100%);
     padding: 14px 32px;
     border: none;
     border-radius: 4px;
-    color: #fff;
+    color: #141414;
     margin-top: 2rem;
     cursor: pointer;
     position: relative;
@@ -263,7 +263,7 @@
 .main__btn a {
     position: relative;
     z-index: 2;
-    color: #fff;
+    color: #141414;
     text-decoration: none;
 }
 
@@ -274,7 +274,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #ffb199;
+    background: #484141;
     transition: all 0.35s;
     border-radius: 4px;
 }
@@ -292,8 +292,8 @@
 }
 
 #main__img {
-    height: 80%;
-    width: 80%;
+    height: 50%;
+    width: 50%;
 }
 
 /* mobile responsive css */
@@ -351,7 +351,7 @@
 
 /* Projects CSS */
 .projects {
-    background: #a8e6b8;
+    background: #28272f;
     display: flex;
     flex-direction: column;
     justify-content: flex;
@@ -360,16 +360,8 @@
 }
 
 .projects h1 {
-    background-color: #ff8177;
-  background-image: linear-gradient(
-    to right,
-    #ff8177 0%,
-    #ff867a 0%,
-    #ff8c7f 21%,
-    #f99185 52%,
-    #cf556c 78%,
-    #b12a5b 100%
-  );
+    background-color: #fff;
+  background-image: linear-gradient(#fff 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
