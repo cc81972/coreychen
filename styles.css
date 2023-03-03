@@ -361,14 +361,14 @@
 
 .projects h1 {
     background-color: #fff;
-  background-image: linear-gradient(#fff 100%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  margin-bottom: 5rem;
-  font-size: 2.5rem;
+    background-image: linear-gradient(#fff 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
 }
 
 .projects__container {
@@ -377,25 +377,29 @@
     flex-wrap: wrap;
 }
 
-.projects__card {
-    margin: 1rem;
-  height: 525px;
-  width: 400px;
-  border-radius: 4px;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(17, 17, 17, 0.6) 100%
-    ),
-    url('/images/battleship.jpeg');
-  background-size: cover;
-  position: relative;
-  color: #fff;
+.projects h4 {
+    position: static;
+    color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1px 4rem 4rem 4rem;
 }
 
-.projects__card:before {
-    opacity: 0.2;
+.projects__card {
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: url('/images/battleship.jpeg');
+    background-color: #fff;
+    background-size: cover;
+    position: relative;
+    color: #fff;
 }
+/* 
+.projects__card:before {
+    opacity: 100;
+} */
 
 .projects__card:nth-child(2) {
     background-image: linear-gradient(
@@ -429,4 +433,58 @@
     top: 440px;
     left: 30px;
     font-size: 1rem;
-  }
+}
+
+.projects__card:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+    .projects {
+        height : 1600px;
+    }
+
+    .projects h1 {
+        font-size : 2rem;
+        margin-top: 14rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .projects {
+        height: 1400px;
+    }
+
+    .projects h1 {
+        font-size: 1.2rem;
+    }
+
+    .projects__Card {
+        width: 300px;
+    }
+}
+
+/* Footer CSS */
+.footer__container {
+    background-color: #28272f;
+    height: 30vh;
+}
+
+.footer__container h1 {
+    text-align: center;
+    color: #fff;
+    float: bottom;
+}
+
+.footer__container h3 {
+    text-align: center;
+    color: #fff;
+}
+
+@media screen {
+    .footer__container{
+        height: 500px;
+    }
+}
