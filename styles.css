@@ -390,7 +390,7 @@
     height: 525px;
     width: 600px;
     border-radius: 4px;
-    /* background-image: url('/images/battleship.jpeg'); */
+    background-image: url('/images/battleship.jpeg'); 
     background-color: #fff;
     background-size: cover;
     position: relative;
@@ -406,7 +406,7 @@
 }
 
 .projects__card:before {
-    opacity: 100;
+    opacity: 0;
 }
 
 .projects__card:nth-child(2) {
@@ -429,13 +429,14 @@
     left: 30px;
 }
 
-.projects__card button {
+.project_button {
     color: #fff;
     padding: 10px 20px;
+    text-decoration: none;
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #f77062;
+    background: #776c6b;
     position: absolute;
     top: 440px;
     left: 30px;
