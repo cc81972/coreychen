@@ -292,8 +292,44 @@
 }
 
 #main__img {
-    height: 50%;
-    width: 50%;
+    border-radius: 30%;
+    width: 80%;
+    height:80%;
+
+}
+
+/* About me Section */
+.about_me_container {
+    background: #28272f;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    align-items: center;
+}
+
+.about_me_title {
+    display: inline-block;
+    margin-bottom: 2.5rem;
+}
+
+.about_me_container h1 {
+    color: #fff;
+    display: block;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.about_me_text h4 {
+    color: #fff;
+    margin-bottom: 2.5rem;
+}
+
+.about_me_text {
+    align-items: self-end;
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 5rem;
 }
 
 /* mobile responsive css */
